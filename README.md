@@ -6,10 +6,10 @@ Training of yolov3 , https://www.youtube.com/watch?v=_FNfRtXEbr4&t=1421s as my r
 
 
 Steps of processing : <br>
-1. Find out the bounding boxes of target (Done !)<br>
-2. Crop it out and split into several cropped images  (Done !) <br>
-3. Detect the rotation angles of target ( Done !)<br>
-4. Classified them by classifier , eg : CNN or KNN or XGBoost <br>
+1. YoloV3 : Find out the bounding boxes of target (Done !)<br>
+2. OpenCV : Crop it out and split into several cropped images  (Done !) <br>
+3. OpenCV : Detect the rotation angles of target ( Done !)<br>
+4. CNN : Classified them by classifier <br>
 5. Join the results <br>
 
 
