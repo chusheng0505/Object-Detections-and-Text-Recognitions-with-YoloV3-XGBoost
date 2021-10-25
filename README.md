@@ -9,7 +9,7 @@ Steps of processing : <br>
 1. YoloV3 : Find out the bounding boxes of target <br>
 2. OpenCV : Crop it out and split into several cropped images   <br>
 3. OpenCV : Detect the rotation angles of target <br>
-4. CNN : Classified them by classifier <br>
+4. CNN : Classified them by classifier , Resnet50V2 as backbone <br>
 5. Join the results <br>
 
 
