@@ -27,6 +27,9 @@ Steps of processing : <br>
 - Results of Detect Flipped of Images : <br>
 ![未命名](https://user-images.githubusercontent.com/55430748/138438302-d4299b0e-a71c-41b4-beb1-7cad65a832bf.png)
 
+- Accuracy of Classifications : <br>
+**acc** = 0.79 - 0.81 <br>
+
 - Results of Text Recognitions : <br>
 # UnFlipped Case :
 - ![image](https://user-images.githubusercontent.com/55430748/138632411-dd493d72-51ee-4b49-9c6b-d8ed0a89d8a4.png)
