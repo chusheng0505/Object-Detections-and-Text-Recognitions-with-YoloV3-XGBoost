@@ -6,9 +6,9 @@ Training of yolov3 , https://www.youtube.com/watch?v=_FNfRtXEbr4&t=1421s as my r
 
 
 Steps of processing : <br>
-1. YoloV3 : Find out the bounding boxes of target (Done !)<br>
-2. OpenCV : Crop it out and split into several cropped images  (Done !) <br>
-3. OpenCV : Detect the rotation angles of target ( Done !)<br>
+1. YoloV3 : Find out the bounding boxes of target <br>
+2. OpenCV : Crop it out and split into several cropped images   <br>
+3. OpenCV : Detect the rotation angles of target <br>
 4. CNN : Classified them by classifier <br>
 5. Join the results <br>
 
@@ -26,3 +26,11 @@ Steps of processing : <br>
 
 - Results of Detect Flipped of Images : <br>
 ![未命名](https://user-images.githubusercontent.com/55430748/138438302-d4299b0e-a71c-41b4-beb1-7cad65a832bf.png)
+
+- Results of Text Recognitions : <br>
+# UnFlipped Case :
+- ![image](https://user-images.githubusercontent.com/55430748/138632411-dd493d72-51ee-4b49-9c6b-d8ed0a89d8a4.png)
+
+# Flipped Case :
+![image](https://user-images.githubusercontent.com/55430748/138632463-f8635492-2440-4af5-b345-14b413173731.png)
+
