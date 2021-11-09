@@ -6,22 +6,28 @@ Training of yolov3 , https://www.youtube.com/watch?v=_FNfRtXEbr4&t=1421s as my r
 
 
 Steps of processing : <br>
-1. YoloV3 : Find out the bounding boxes of target <br>
-2. OpenCV : Crop it out and split into several cropped images   <br>
-3. OpenCV : Detect the rotation angles of target <br>
-4. CNN : Classified them by classifier , Resnet50V2 as backbone <br>
-5. Join the results <br>
+1. YoloV3 : Find out the bounding boxes of target and characters <br>
+2. HOG : To get features of Characters <br>
+3. XGBoost : Model used to classify <br>
+3. Join the results <br>
+
+Problems during processing : <br>
+1. Some of original images are vertical flip. <br>
+1.1 We have to develop a methods to detect. <br>
+1.2 By observation,we found that most of the images are in format  'XXXXX  XXX  XX' or 'XXXXX XXXX' or 'XXXXXXXXX' where X are Arabic numerals [0-9] or captital letter [A-Z but not included O and I].<br>
+1.3 Detect the sides(left or right) which contains most of X.<br><b>If num(left characters) > num(right characters) :  Normal case  <br>
+Else : Vertical Flip </b> <br>
+
+2.There are some characters with less training dataset. <br>
+ 2.1  Create more training data for those characters by adding <b> Gaussian Noises / Random Chopping / Random Brightness Adjustment </b><br>
+ 2.2 Total Training Images : ~ 139k with 34 classes <br>
 
 
 - Results of Detections: <br>
 ![1633964341928](https://user-images.githubusercontent.com/55430748/136812307-2ac3b6e4-d948-407d-86a4-904bcea64ee6.jpg)
 
 - Results of Cropping : <br>
-![_1TFexxwPqzHZM9JTwJTgmt5Urphufo_10](https://user-images.githubusercontent.com/55430748/138438514-8bcd7489-0469-4c3c-97d6-261dfafe7989.png)
-![_3hLk8HXQ3PKDcLhDUhIebkqnac15l_7](https://user-images.githubusercontent.com/55430748/138438525-8da6ac9a-32bb-4d82-afb1-d6b2ccf3a10a.png)
-![_5a6SH4kVJenLjIPCfHJBS_z_z3Vx9g_6](https://user-images.githubusercontent.com/55430748/138438533-72a7549e-f5d9-4b7f-87a8-490422673b85.png)
-![_6t7M4I9zeLNUVLEOcBVYwqslkxVxwCu_7](https://user-images.githubusercontent.com/55430748/138438543-00a0bd11-4ef0-4958-9855-fc83f040e88a.png)
-![==9G3h2OPz8IzwwL8OTWLkIunpD6MvmG_1](https://user-images.githubusercontent.com/55430748/138438567-05d9bc01-f454-47fa-b47e-7238c43ae262.png)
+
 
 
 - Results of Detect Flipped of Images : <br>
