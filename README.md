@@ -31,7 +31,6 @@ Else : Vertical Flip </b> <br>
 ![_1UDp_d33Sykrs6V2ZkovqVvwdtTbW=7_5_1](https://user-images.githubusercontent.com/55430748/140849520-dccf9c07-e1e7-4f5b-ae0b-ca98b852d383.png)
 ![_cupNTdDY9geb4ohRfCmowssGw2H7PF_8_2](https://user-images.githubusercontent.com/55430748/140849528-1e712b4a-b446-4a8d-bb18-607df82bd2b1.png)
 ![_93es8OLoCyvfH5mkC7io4sZhZ5flMW_5_4](https://user-images.githubusercontent.com/55430748/140849541-9af4dbb9-c42a-49ac-a8dc-275c982dfcf3.png)
-6244df-3044-4b58-bf5d-a9cbae3191b4.png)
 ![_aEUhsBCvi5XSdQuS=Rf2zZlmgidqWvF_5_5](https://user-images.githubusercontent.com/55430748/140849551-744aca54-20e4-48a5-b77a-0b98ecf94e01.png)
 ![=YhmQm46MFBzLuVx7_1t9vmwkXqCLxfY_5_6](https://user-images.githubusercontent.com/55430748/140849557-74f83539-ae2e-4d70-a1de-a74d4470dd3f.png)
 ![=8aD28_bpgyEZCTgBoFOrJB1HYahnRno_4_7](https://user-images.githubusercontent.com/55430748/140849561-b69f5e92-81fe-4edc-9956-d86a95fc199f.png)
@@ -66,8 +65,8 @@ Else : Vertical Flip </b> <br>
 - Accuracy of Classifications : <br>
 **acc** = 0.9602 - 0.984 <br>
 - Confusion Matirx : <br>
-![confusion_matrix](https://user-images.githubusercontent.com/55430748/140850117-9adf2088-7106-4273-b498-8b9ec7c6a0f8.png =250x250) <br>
-![non_diagonal_element_error](https://user-images.githubusercontent.com/55430748/140850119-d39cc0dc-307d-4126-b2d5-c26f8d85de68.png =250x250) <br>
+![confusion_matrix](https://user-images.githubusercontent.com/55430748/140850117-9adf2088-7106-4273-b498-8b9ec7c6a0f8.png ) <br>
+![non_diagonal_element_error](https://user-images.githubusercontent.com/55430748/140850119-d39cc0dc-307d-4126-b2d5-c26f8d85de68.png ) <br>
 
 
 - Results of Text Recognitions : <br>
