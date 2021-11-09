@@ -24,7 +24,7 @@ Else : Vertical Flip </b> <br>
 
 
 - Results of Detections: <br>
-![1633964341928](https://user-images.githubusercontent.com/55430748/136812307-2ac3b6e4-d948-407d-86a4-904bcea64ee6.jpg)
+![1633964341928](https://user-images.githubusercontent.com/55430748/136812307-2ac3b6e4-d948-407d-86a4-904bcea64ee6.jpg =250x250)
 
 - Results of Cropping : <br>
 ![__eN=NSp5V3VuC9dHV9664GdpOgFf3Q_6_0](https://user-images.githubusercontent.com/55430748/140849510-7623db13-603e-4251-b711-8be7654cea13.png)
