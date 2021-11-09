@@ -30,7 +30,6 @@ Else : Vertical Flip </b> <br>
 ![__eN=NSp5V3VuC9dHV9664GdpOgFf3Q_6_0](https://user-images.githubusercontent.com/55430748/140849510-7623db13-603e-4251-b711-8be7654cea13.png)
 ![_1UDp_d33Sykrs6V2ZkovqVvwdtTbW=7_5_1](https://user-images.githubusercontent.com/55430748/140849520-dccf9c07-e1e7-4f5b-ae0b-ca98b852d383.png)
 ![_cupNTdDY9geb4ohRfCmowssGw2H7PF_8_2](https://user-images.githubusercontent.com/55430748/140849528-1e712b4a-b446-4a8d-bb18-607df82bd2b1.png)
-![_4JLX2DnJMq4wZ6LfIIndmyea7JywZm_0_3](https://user-images.githubusercontent.com/55430748/140849535-48
 ![_93es8OLoCyvfH5mkC7io4sZhZ5flMW_5_4](https://user-images.githubusercontent.com/55430748/140849541-9af4dbb9-c42a-49ac-a8dc-275c982dfcf3.png)
 6244df-3044-4b58-bf5d-a9cbae3191b4.png)
 ![_aEUhsBCvi5XSdQuS=Rf2zZlmgidqWvF_5_5](https://user-images.githubusercontent.com/55430748/140849551-744aca54-20e4-48a5-b77a-0b98ecf94e01.png)
