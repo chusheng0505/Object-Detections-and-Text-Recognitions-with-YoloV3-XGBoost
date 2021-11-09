@@ -67,8 +67,8 @@ Else : Vertical Flip </b> <br>
 - Accuracy of Classifications : <br>
 **acc** = 0.9602 - 0.984 <br>
 - Confusion Matirx : <br>
-![confusion_matrix](https://user-images.githubusercontent.com/55430748/140850117-9adf2088-7106-4273-b498-8b9ec7c6a0f8.png =250x250)
-![non_diagonal_element_error](https://user-images.githubusercontent.com/55430748/140850119-d39cc0dc-307d-4126-b2d5-c26f8d85de68.png =250x250)
+![confusion_matrix](https://user-images.githubusercontent.com/55430748/140850117-9adf2088-7106-4273-b498-8b9ec7c6a0f8.png =250x250) <br>
+![non_diagonal_element_error](https://user-images.githubusercontent.com/55430748/140850119-d39cc0dc-307d-4126-b2d5-c26f8d85de68.png =250x250) <br>
 
 
 - Results of Text Recognitions : <br>
