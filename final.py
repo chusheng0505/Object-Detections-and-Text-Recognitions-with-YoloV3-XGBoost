@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import os
 import cv2
 import glob
@@ -15,10 +9,6 @@ from skimage.feature import hog
 
 import pickle
 from xgboost import XGBClassifier
-
-
-# In[ ]:
-
 
 """ ------------------ 偵測圖中具有文字的目標位置 ------------------  """
 
@@ -122,20 +112,7 @@ def Get_CharsBoundingBox(image,model_yolov3,scaling_ratio,threshold = 0.3):
                 boxes.append([x,y,w,h])
         return boxes
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 get_ipython().run_cell_magic('time', '', 'yolo_cfg = \'your yolov3.cfg path with format .cfg\'\nyolo_weights = \'your yolov3.model_weights path with format .weights\'\nyolo_chars_weights = \'your yolov3.model_weights path (to detect chars) with format .weights\'\noriginal_image_path = \'your images path\'\n\nscaling_ratio = 0.4\nimages_path = glob.glob(original_image_path)\nnet = Load_YoloV3(yolo_weights , yolo_cfg)\nnet_chars = Load_YoloV3(yolo_chars_cfg , yolo_weights)\n\n"""\n: params : image_unable_crop : collect the images name which are unable to be detected out\n: params : image_crop : collect those results which are detected by yolov3 \n\n# Try to reduce confidences scores in NMS(Non Maximum Suppression)\n## From 0.4 --> 0.3\n\n"""\nimage_unable_crop = [] \nimage_crop = [] \nfor k in tqdm(range(len(images_path))):\n    image_name = images_path[k]\n    bounding_box = Get_BoundingBox(images_path[k],net,scaling_ratio = scaling_ratio)\n    if bounding_box == ():\n        image_unable_crop.append(image_name)\n        print(k , image_name)\n        pass\n    else:\n        x , y , w , h , img = bounding_box\n        x = x - 25 if x-25 > 0 else 0\n        w = w + 50\n        y = y - 5 if y - 5 > 0 else 0\n        h = h + 10\n        img_crop = img[ y : y+h , x : x+w ]\n        h,w = img_crop.shape[:2]\n        h,w = math.ceil(w/scaling_ratio),math.ceil(h/scaling_ratio)\n        img_crop = cv2.resize(img_crop,(h,w))\n        image_crop.append([image_name,img_crop])')
-
-
-# In[ ]:
 
 
 """
@@ -161,8 +138,6 @@ for i in tqdm(range(len(image_crop))):
             chars.append([name_image,initial_y , final_y , initial_x , final_x])
         Chars_.append(chars)
 
-
-# In[ ]:
 
 
 """
@@ -242,7 +217,6 @@ for m in tqdm(range(len(image_crop))):
                     Chars_Rotated_.append(char_rotated_)
 
 
-# In[ ]:
 
 
 """
@@ -271,8 +245,6 @@ for i in tqdm(range(len(Chars_Rotated_))):
     Chars_Final_Modify.append(chars_final_modify)
 
 
-# In[ ]:
-
 
 """
 # HOG features
@@ -298,8 +270,6 @@ for i in tqdm(range(len(Chars_Rotated_))):
         HOG.append(hog_features)
 
 
-# In[ ]:
-
 
 path_xgb = 'path of xgboost model trained'
 xgb_model = pickle.load(open(path_xgb, 'rb'))
@@ -312,8 +282,6 @@ mapping = {'0': '0','1': '1','2': '2','3': '3','4': '4','5': '5',
            '27': 'T','28': 'U','29': 'V','30': 'W','31': 'X',
            '32': 'Y','33': 'Z'}
 
-
-# In[ ]:
 
 
 """
@@ -329,9 +297,6 @@ for i in tqdm(range(len(HOG))):
     else:
         pred_xgb = xgb_model.predict(HOG[i])
         Pred.append(''.join([mapping[str(pred_xgb[j])] for j in range(len(pred_xgb))]))
-
-
-# In[ ]:
 
 
 
