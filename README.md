@@ -1,4 +1,4 @@
-# Object-Detections-and-Text-Recognitions (In Processing)
+# Object-Detections-and-Text-Recognitions by Using YoloV3 and XGBoost
 Objects Detection and Text Recognitions
 
 In this projects, I am trying to use yolov3 model to detect the targets(text) and recognition it.<br>
