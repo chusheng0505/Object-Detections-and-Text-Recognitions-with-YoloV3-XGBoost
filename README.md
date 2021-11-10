@@ -62,17 +62,24 @@ Else : Vertical Flip </b> <br>
 ![=WNo2paaxUIGTSeVDEVwFq1D28Hlp2o__2_Z](https://user-images.githubusercontent.com/55430748/140849964-a742df02-53b0-4c67-a2e5-1c62c5c981ff.png)
 
 
-- Accuracy of Classifications : <br>
+- Accuracy of Classifications of Chars : <br>
 **acc** = 0.9602 - 0.984 <br>
 - Confusion Matirx (Because of diagonal elements are large,I've changed them into 99 for easier understanding results ) : <br>
 ![confusion_matrix](https://user-images.githubusercontent.com/55430748/140850117-9adf2088-7106-4273-b498-8b9ec7c6a0f8.png =250x250) <br>
 ![non_diagonal_element_error](https://user-images.githubusercontent.com/55430748/140850119-d39cc0dc-307d-4126-b2d5-c26f8d85de68.png =250x250) <br>
 
 
-- Results of Text Recognitions : <br>
+- Results of Detections and Recognitions : <br>
+### Numbers of unable to be detected by YoloV3 (with total numbers : 9915):
+![num_unable_to_predict](https://user-images.githubusercontent.com/55430748/141032636-a1bcb754-03d6-4aaa-8dcf-c2da4a210fc3.png)
+
+
 ### UnFlipped Case :
-- ![image](https://user-images.githubusercontent.com/55430748/138632411-dd493d72-51ee-4b49-9c6b-d8ed0a89d8a4.png)
+![image](https://user-images.githubusercontent.com/55430748/138632411-dd493d72-51ee-4b49-9c6b-d8ed0a89d8a4.png)
 
 ### Flipped Case :
 ![image](https://user-images.githubusercontent.com/55430748/138632463-f8635492-2440-4af5-b345-14b413173731.png)
+
+### Failed Case:
+![error](https://user-images.githubusercontent.com/55430748/141032534-bb1020bd-a761-477a-a430-d1b1cd4c8743.png)
 
