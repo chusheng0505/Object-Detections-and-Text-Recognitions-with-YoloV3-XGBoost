@@ -71,7 +71,7 @@ Else : Vertical Flip </b> <br>
 
 - Results of Detections and Recognitions : <br>
 ### Numbers of unable to be detected by YoloV3 (with total numbers : 9915):
-![num_unable_to_predict](https://user-images.githubusercontent.com/55430748/141032636-a1bcb754-03d6-4aaa-8dcf-c2da4a210fc3.png =100X100)
+![num_unable_to_predict](https://user-images.githubusercontent.com/55430748/141032636-a1bcb754-03d6-4aaa-8dcf-c2da4a210fc3.png width='100)
 
 ### UnFlipped Case :
 ![image](https://user-images.githubusercontent.com/55430748/138632411-dd493d72-51ee-4b49-9c6b-d8ed0a89d8a4.png =100X100)
