@@ -71,14 +71,14 @@ Else : Vertical Flip </b> <br>
 
 - Results of Detections and Recognitions : <br>
 ### Numbers of unable to be detected by YoloV3 (with total numbers : 9915):
-![num_unable_to_predict](https://user-images.githubusercontent.com/55430748/141032636-a1bcb754-03d6-4aaa-8dcf-c2da4a210fc3.png width='100)
+![num_unable_to_predict](https://user-images.githubusercontent.com/55430748/141033389-b9b66420-c47b-4696-9af3-30837d071c23.png)
 
 ### UnFlipped Case :
-![image](https://user-images.githubusercontent.com/55430748/138632411-dd493d72-51ee-4b49-9c6b-d8ed0a89d8a4.png =100X100)
+![image](https://user-images.githubusercontent.com/55430748/138632411-dd493d72-51ee-4b49-9c6b-d8ed0a89d8a4.png)
 
 ### Flipped Case :
-![image](https://user-images.githubusercontent.com/55430748/138632463-f8635492-2440-4af5-b345-14b413173731.png =100X100)
+![image](https://user-images.githubusercontent.com/55430748/138632463-f8635492-2440-4af5-b345-14b413173731.png)
 
 ### Failed Case:
-![error](https://user-images.githubusercontent.com/55430748/141032534-bb1020bd-a761-477a-a430-d1b1cd4c8743.png =100X100)
+![error](https://user-images.githubusercontent.com/55430748/141032534-bb1020bd-a761-477a-a430-d1b1cd4c8743.png)
 
